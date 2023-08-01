@@ -1,0 +1,57 @@
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.carousel-inner{
+    display: block;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    height: auto;
+    width: 1000px;
+}
+
+h1{
+    color: red;
+}
+
+.grid-container {
+    display: grid;
+    color:red;
+    font-size: larger;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 150px;
+    border-color: red;
+    border-style: double;
+}
+.grid-item:nth-child(1) {
+    grid-row: 1/2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column: 1/2;
+    border-color: red;
+    border-style: dashed;
+    
+}
+.grid-item:nth-child(2) {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    border-color:red;
+    border-style: dashed;
+}
+.grid-item:nth-child(3) {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    border-color: red;
+    border-style: dashed;
+}
+
+.grid-item:nth-child(4) {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    border-color: red;
+    border-style: dashed;
+}
+
